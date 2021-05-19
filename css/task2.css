@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    background-color: #FFA07A;
+}
+
+.row__cell {
+    flex: 1;
+    margin: 10px;
+    background-color: #E6E6FA;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-3 {
+    flex: 3;
+}
+
+.cell-2 {
+    flex: 2;
+}
