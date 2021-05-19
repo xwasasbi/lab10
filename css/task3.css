@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,footer {
+    height: 20vh;
+    background-color: #7FFFD4;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+header, article, nav, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #0000FF;
+}
+
+article {
+    flex: 1;
+}
+
+nav, aside {
+    width: 20vw;
+}
+
+nav {
+    background-color: #FFDEAD;
+    order: -1;
+}
+
+aside {
+    background-color: #BC8F8F;
+}
+
+aside {
+    color: white;
+}
